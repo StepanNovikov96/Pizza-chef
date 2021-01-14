@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','MainController@index');
+Route::get('/categories','MainController@categories');
+Route::get('/{category}','MainController@category');
+Route::get('/category/{product?}','MainController@product');
