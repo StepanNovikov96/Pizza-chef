@@ -221,16 +221,19 @@
                     </div>
                     <div class="box-content">
                         <ul class="box-category treemenu">
-                            <li><a href="pizza.html" class="active"><span>Pizza (10)</span></a></li>
-                            <li><a href="japan.html"><span>Japan (17)</span></a>
-                                <ul>
-                                    <li><a href="rolli.html"><span>Rolls (6)</span></a></li>
-                                    <li><a href="teplie-rolli.html"><span>Warm rolls (3)</span></a></li>
-                                    <li><a href="sushi.html"><span>Sushi (5)</span></a></li>
-                                    <li><a href="spicy-sushi.html"><span>Spicy-sushi (3)</span></a></li>
-                                </ul>
-                            </li>
-                            <li><a href="drinks-dostavka.html"><span>Beverages (7)</span></a></li>
+                            @foreach($categories as $category)
+                                <li><a href="/{{$category->code}}" class="active"><span>{{$category->name}} (10)</span></a></li>
+                            @endforeach
+{{--                            <li><a href="pizza.html" class="active"><span>Pizza (10)</span></a></li>--}}
+{{--                            <li><a href="japan.html"><span>Japan (17)</span></a>--}}
+{{--                                <ul>--}}
+{{--                                    <li><a href="rolli.html"><span>Rolls (6)</span></a></li>--}}
+{{--                                    <li><a href="teplie-rolli.html"><span>Warm rolls (3)</span></a></li>--}}
+{{--                                    <li><a href="sushi.html"><span>Sushi (5)</span></a></li>--}}
+{{--                                    <li><a href="spicy-sushi.html"><span>Spicy-sushi (3)</span></a></li>--}}
+{{--                                </ul>--}}
+{{--                            </li>--}}
+{{--                            <li><a href="drinks-dostavka.html"><span>Beverages (7)</span></a></li>--}}
                         </ul>
                     </div>
                 </div>

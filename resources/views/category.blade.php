@@ -223,13 +223,7 @@
 
                 <div class="category-info clearfix">
                     <h1>
-                        @if($category == 'beverages')
-                            BEVERAGES
-                        @elseif($category == 'pizza')
-                            PIZZA
-                        @elseif($category == 'japan')
-                            JAPAN
-                        @endif
+                        {{$category->name}}
                     </h1>
                 </div>
 

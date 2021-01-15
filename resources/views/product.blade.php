@@ -736,7 +736,7 @@
                             <div class="item">
                                 <div class="image">
                                     <a href="margarita.html">
-                                        <img src="img/data-drinks-j7-240x240.jpg" title="Juice J7" alt="Juice J7">
+                                        <img src="/img/data-drinks-j7-240x240.jpg" title="Juice J7" alt="Juice J7">
                                     </a>
                                 </div>
                                 <div class="caption">
@@ -761,7 +761,7 @@
                             <div class="item">
                                 <div class="image">
                                     <a href="margarita.html">
-                                        <img src="img/data-drinks-sok-240x240.jpg" title="Juice Fruit Garden" alt="Juice Fruit Garden">
+                                        <img src="/img/data-drinks-sok-240x240.jpg" title="Juice Fruit Garden" alt="Juice Fruit Garden">
                                     </a>
                                 </div>
                                 <div class="caption">
@@ -786,7 +786,7 @@
                             <div class="item">
                                 <div class="image">
                                     <a href="margarita.html">
-                                        <img src="img/data-pizza-siri-240x240.jpg" title="4 cheeses" alt="4 cheeses">
+                                        <img src="/img/data-pizza-siri-240x240.jpg" title="4 cheeses" alt="4 cheeses">
                                     </a>
                                 </div>
                                 <div class="caption">
